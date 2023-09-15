@@ -29,4 +29,4 @@
         return $book['author'] === 'Neil Druckmann';
     });
 
-    require("index.view.php");
+    require("./views/index.view.php");
