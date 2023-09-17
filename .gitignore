@@ -1,16 +1,12 @@
-config.php
+
 .env
 /vendor/
 /node_modules/
 .htaccess
-*.php
-!index.php
-!wp-config.php
-!wp-load.php
-!xmlrpc.php
 
 php.ini
 
+/logs/
 *.log
 
 *.bak
@@ -19,5 +15,5 @@ php.ini
 
 .sass-cache
 
-node_modules
+
 
