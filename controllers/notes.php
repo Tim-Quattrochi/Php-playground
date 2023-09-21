@@ -6,7 +6,9 @@ $db = new Database($config['database'], $config['database']['dbusername'], $conf
 
 $heading = "My Notes";
 
-$notes = $db->query('select * from notes where user_id = 5')->fetchAll();
+$notes = $db->query('select * from notes where user_id = 3')->get();
+
+
 
 
 
